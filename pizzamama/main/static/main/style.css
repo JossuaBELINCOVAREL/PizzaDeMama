@@ -1,0 +1,31 @@
+body {
+    background: url("images/main_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Centrer le texte et le bouton */
+    width: 100%; /* S'assurer que ça ne dépasse pas */
+}
+
+a {
+    display: block;
+    text-align: center;
+    background-color: #DD7835;
+    color: white;
+    margin: 20px auto; /* Centrer horizontalement */
+    padding: 10px 15px; /* Plus d'espace pour un meilleur design */
+    width: 120px; /* Ajustement pour un meilleur rendu */
+    border-radius: 5px; /* Coins arrondis pour un meilleur visuel */
+    text-decoration: none; /* Enlever le soulignement du lien */
+}
